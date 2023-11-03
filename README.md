@@ -81,6 +81,12 @@ pip install -r requirments.txt
 streamlit run website.py
 ```
 
-
+## Tech Stack 
+- [x] Streamlit
+- [x] Tensorflow
+- [x] Github
+- [x] replit
+- [x] Flask
+- [x] Seaborn 
 
  

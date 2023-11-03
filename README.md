@@ -1,2 +1,2 @@
-# dirty-moni-detector
-# API LINK : https://dirtyapi.replit.app/
+# Dirty-Moni-Detector
+### API LINK : https://dirtyapi.replit.app/

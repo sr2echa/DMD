@@ -1,4 +1,9 @@
-# Dirty-Moni-Detector
+![image](https://github.com/sr2echa/dirty-moni-detector/assets/65058816/f2d86ce3-9d19-499a-bc6e-7ef83f8f7083)
+
+
+## Frontend : https://dirtymoneydetector.streamlit.app
+🔗 [SOURCE CODE FOR WEB](./web)
+
 ### API LINK : https://dirtyapi.replit.app/
 
 ## API Reference:
@@ -51,3 +56,6 @@
 }
 
 ```
+
+## ML Model
+[SOURCE CODE](./ML)

@@ -78,7 +78,6 @@ pip install -r requirments.txt
 ```
 3. Run 
 ```bash
- streamlit run website.py
-'''
+ streamlit run website.py'''
 
  

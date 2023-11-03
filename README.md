@@ -76,8 +76,9 @@
 ```bash
 pip install -r requirments.txt
 ```
-3. Run 
+3. Run the application:
 ```bash
- streamlit run website.py '''
+streamlit run website.py
+
 
  

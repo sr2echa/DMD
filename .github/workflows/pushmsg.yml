@@ -1,0 +1,37 @@
+name: Changes Received
+
+on:
+  push:
+    branches:
+      - vampbrain-patch-1
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Get pusher's name and commit message
+        id: commit_info
+        run: |
+          USER=$(git log -1 --pretty=format:'%an')
+          MESSAGE=$(git log -1 --pretty=format:'%s')
+          echo "::set-output name=user::$USER"
+          echo "::set-output name=message::$MESSAGE"
+
+      - name: Append to README
+        run: |
+          USER=${{ steps.commit_info.outputs.user }}
+          MESSAGE=${{ steps.commit_info.outputs.message }}
+          echo "Pushed by: $USER" >> README.md
+          echo "Commit Message: $MESSAGE" >> README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Add pusher's name and commit message"
+          git push

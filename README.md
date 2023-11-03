@@ -80,13 +80,11 @@ streamlit run website.py
 ```
 
 ## Tech Stack 
-- [x] Streamlit
+- [x] Streamlit <figure> <img src="web/Group 323.png" alt="Tech Stack" style="float:right;width:400px;height:400px;"></figure>
 - [x] Tensorflow
 - [x] Github
 - [x] replit
 - [x] Flask
 - [x] Seaborn 
-<figure>
-  <img src="web/Group 323.png" alt="Tech Stack" style="float:right;width:100px;height:100px;">
-</figure>
+
  

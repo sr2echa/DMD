@@ -1,4 +1,4 @@
-![image](https://github.com/sr2echa/dirty-moni-detector/assets/65058816/f2d86ce3-9d19-499a-bc6e-7ef83f8f7083)
+v![image](https://github.com/sr2echa/dirty-moni-detector/assets/65058816/f2d86ce3-9d19-499a-bc6e-7ef83f8f7083)
 
 ---
 
@@ -86,5 +86,7 @@ streamlit run website.py
 - [x] replit
 - [x] Flask
 - [x] Seaborn 
-
+<figure>
+  <img src="web/Group 323.png" alt="Tech Stack" style="float:right;width:100px;height:100px;">
+</figure>
  

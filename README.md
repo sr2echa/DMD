@@ -2,17 +2,17 @@
 
 ---
 
-## Frontend 
-### STREAMLIT : https://dirtymoneydetector.streamlit.app
-🔗 [sourcecode](./web)
+Here's the properly formatted content:
 
+## Frontend
+### STREAMLIT: [https://dirtymoneydetector.streamlit.app](https://dirtymoneydetector.streamlit.app)
+🔗 [Source Code](./web)
 ---
+### API LINK: [https://dirtyapi.replit.app/](https://dirtyapi.replit.app)
 
-### API LINK : https://dirtyapi.replit.app/
-
-## API Reference:
-### Path : `/api/<wallet_add>`
-### Output : 
+## API Reference
+### Path: `/api/<wallet_add>`
+### Output:
 ```json
 {
   "Address": "string",
@@ -58,10 +58,8 @@
   "UniqueReceivedFrom_Addresses": "int",
   "UniqueSentTo_Addresses20": "int"
 }
-
 ```
 ---
-
 ## ML Model
 [sourcecode](./ML)
 

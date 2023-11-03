@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import accuracy_score
 from keras.models import load_model
 def detect(wallet):
     response = requests.get(f'https://dirtyapi.replit.app/api/{wallet}')
@@ -14,4 +15,5 @@ def detect(wallet):
     df_scaled = scaler.fit_transform(df1)
     loaded_model=load_model(r'/content/DMD.h5')
     predictions1 = loaded_model.predict(df_scaled)
-    return predictions1 >=3.84e-05
+    binary_predictions = (predictions >= 0.5).astype(int)
+    return accuracy_score([1,0],binary_predictions)

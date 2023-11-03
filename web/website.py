@@ -3,7 +3,7 @@ import subprocess
 import pandas as pd
 import plotly.graph_objects as go
 import dash
-
+from src.detect import detect
 df=pd.read_csv("./dataset.csv")
 df.drop(df.columns[df.columns.str.contains('unnamed',case = False)],axis = 1, inplace = True)
 df2=df[['Address', 'Sent tnx','Received Tnx','Number of Created Contracts','total Ether sent','total ether received','total ether balance','FLAG']]
@@ -117,7 +117,7 @@ elif page == "🎯Detector":
     st.markdown(vert_space, unsafe_allow_html=True)
 
     wallet_address = st.text_input("Wallet Address", key="wallet_input", value="")
-    percentage = 95  # You can change this percentage value
+    percentage = detect(wallet_address) # You can change this percentage value
 
     # Set the text color based on the percentage
     if percentage > 65:

@@ -1,1 +1,58 @@
+name: Model Training Pipeline 
 
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+
+  train:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: dirty-moni-detector
+      uses: actions/checkout@v2
+
+    - name: Set up Python Environment
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+        
+    - name: Install Dependencies
+      run: pip install -r requirements.txt
+      
+    - name: Load Dataset  
+      run: python load_data.py
+    
+    - name: Train Model
+      run: python train.py --epochs $Epochs --lr $LR
+        
+    - name: Evaluate Metrics
+      run: python evaluate.py --model outputs/model.pth 
+    
+    - name: Save Results
+      uses: actions/upload-artifact@v2
+      with:
+        name: results
+        path: outputs
+        
+  deploy:
+    needs: train 
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: Check Out Repository
+      uses: actions/checkout@v2
+    
+    - name: Download Artifacts
+      uses: actions/download-artifact@v2
+      with:
+        name: results
+        path: outputs  
+        
+    - name: Deploy Model
+      run: python deploy.py --model outputs/model.pth

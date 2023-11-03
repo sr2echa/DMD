@@ -64,3 +64,21 @@
 
 ## ML Model
 [sourcecode](./ML)
+
+## How to Use 
+
+1. Clone the Repository 
+```bash 
+ git clone https://github.com/sr2echa/dirty-moni-detector.git
+```
+
+2. Install all requirments and dependencies
+```bash
+pip install -r requirments.txt
+```
+3. Run 
+```bash
+ streamlit run website.py
+'''
+
+ 

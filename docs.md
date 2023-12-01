@@ -1,6 +1,5 @@
-## Frontend
-### [Streamlit](https://dirtymoneydetector.streamlit.app)
-🔗 [Source Code](./web)
+## [Frontend](https://dirtymoneydetector.streamlit.app)
+🔗 Streamlit → [Source Code](./web)
 
 ---
 

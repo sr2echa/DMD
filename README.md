@@ -32,3 +32,11 @@ In summary, "DMD" is not just a tool—it's an essential ally in maintaining the
 
 > [!IMPORTANT]
 > Documentation of the codebase has been shifted to [docs.md](./docs.md)
+
+<br>
+
+<samp>
+  
+🛠️ Made by [Sreecharan](https://github.com/sr2echa), [Girish Raghav](https://github.com/wreckage0907), [Surith L G](https://github.com/lgsurith), [Bharathi R](https://github.com/vampbrain) & [Tharun J M](https://github.com/jmt-genius) in ⏳ < 36 hrs
+
+</samp>

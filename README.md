@@ -1,6 +1,6 @@
 > [!NOTE]
 > **Made for RevaHack 23 ❤️** <br>
-> <samp> We even won the **1st place** and were the **Title Winners of RevaHack 23**! More about it here 👉 <a href="https://devfolio.co/projects/dmd-dirty-money-detector-54b2">Devfolio</a> </samp>
+> <samp> We even won the **🏆 1st place** and were the **Title Winners of RevaHack 23**! More about it here 👉 <a href="https://devfolio.co/projects/dmd-dirty-money-detector-54b2">Devfolio</a> </samp>
 
 ---
 

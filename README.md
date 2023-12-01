@@ -1,12 +1,12 @@
-![image](https://github.com/sr2echa/dirty-moni-detector/assets/65058816/f2d86ce3-9d19-499a-bc6e-7ef83f8f7083)
-
----
 > [!NOTE]
 > **Made for RevaHack 23 ❤️** <br>
 > <samp> We even won the **1st place** and were the **Title Winners of RevaHack 23**! More about it here 👉 <a href="https://devfolio.co/projects/dmd-dirty-money-detector-54b2">Devfolio</a> </samp>
 
 ---
 
+![image](https://github.com/sr2echa/dirty-moni-detector/assets/65058816/f2d86ce3-9d19-499a-bc6e-7ef83f8f7083)
+
+---
 
 ## The Problem It Solves
 In the world of digital finance, the rise of cryptocurrencies has been meteoric. While they offer unprecedented opportunities for investment and transaction, they have also opened up new avenues for financial misconduct, such as fraud and money laundering. Traditional methods of tracking and scrutinizing financial transactions are often ill-suited to the decentralized and anonymous nature of blockchain-based currencies. This is where "DMD" steps in as a game-changer.
